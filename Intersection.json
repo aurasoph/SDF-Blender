@@ -1,0 +1,311 @@
+{
+    "nodes": [
+        {
+            "uuid": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+            "type": "GROUP_INPUT",
+            "location": {
+                "x": -279.5433349609375,
+                "y": -0.0
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Group Input",
+            "label": "",
+            "inputs": [],
+            "outputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Input_0",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Distance A",
+                    "node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Input_1",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Distance B",
+                    "node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                },
+                {
+                    "description": "",
+                    "display_shape": "CIRCLE",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "__extend__",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "",
+                    "node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+                    "show_expanded": false,
+                    "type": "CUSTOM"
+                }
+            ],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        },
+        {
+            "uuid": "49418561-5972-4dad-abb7-1dba25afeb2a",
+            "type": "GROUP_OUTPUT",
+            "location": {
+                "x": 145.54327392578125,
+                "y": -0.0
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Group Output",
+            "label": "",
+            "inputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Output_2",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Intersection",
+                    "node": "49418561-5972-4dad-abb7-1dba25afeb2a",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                },
+                {
+                    "description": "",
+                    "display_shape": "CIRCLE",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "__extend__",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "",
+                    "node": "49418561-5972-4dad-abb7-1dba25afeb2a",
+                    "show_expanded": false,
+                    "type": "CUSTOM"
+                }
+            ],
+            "outputs": [],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        },
+        {
+            "uuid": "3ebecce9-7615-483a-b67c-17c5663e3060",
+            "type": "MATH",
+            "location": {
+                "x": -79.5433349609375,
+                "y": 15.595703125
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Math",
+            "label": "",
+            "inputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value_001",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value_002",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                }
+            ],
+            "outputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Value",
+                    "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                }
+            ],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        }
+    ],
+    "links": [
+        {
+            "from_node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+                "default_value": "0.5"
+            },
+            "to_node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                "default_value": "0.5"
+            }
+        },
+        {
+            "from_node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "c723a7f8-2038-4c02-a7c4-78ae56424188",
+                "default_value": "0.5"
+            },
+            "to_node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                "default_value": "0.5"
+            }
+        },
+        {
+            "from_node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "3ebecce9-7615-483a-b67c-17c5663e3060",
+                "default_value": "0.0"
+            },
+            "to_node": "49418561-5972-4dad-abb7-1dba25afeb2a",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "49418561-5972-4dad-abb7-1dba25afeb2a",
+                "default_value": "0.0"
+            }
+        }
+    ]
+}

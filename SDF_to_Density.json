@@ -1,0 +1,763 @@
+{
+    "nodes": [
+        {
+            "uuid": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+            "type": "GROUP_OUTPUT",
+            "location": {
+                "x": 534.4556884765625,
+                "y": 9.005558013916016
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Group Output",
+            "label": "",
+            "inputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Output_2",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Float",
+                    "node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Output_3",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Boolean",
+                    "node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+                    "show_expanded": false,
+                    "type": "BOOLEAN",
+                    "default_value": null
+                },
+                {
+                    "description": "",
+                    "display_shape": "CIRCLE",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "__extend__",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "",
+                    "node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+                    "show_expanded": false,
+                    "type": "CUSTOM"
+                }
+            ],
+            "outputs": [],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        },
+        {
+            "uuid": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+            "type": "COMPARE",
+            "location": {
+                "x": -501.9905700683594,
+                "y": -67.42281341552734
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Compare",
+            "label": "",
+            "inputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "A",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "A",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "B",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "B",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "A_INT",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "A",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "INT",
+                    "default_value": null
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "B_INT",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "B",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "INT",
+                    "default_value": null
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "A_VEC3",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "A",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VECTOR",
+                    "default_value": [
+                        "0.0",
+                        "0.0",
+                        "0.0"
+                    ]
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "B_VEC3",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "B",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VECTOR",
+                    "default_value": [
+                        "0.0",
+                        "0.0",
+                        "0.0"
+                    ]
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "A_COL",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "A",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "RGBA",
+                    "default_value": [
+                        "0.0",
+                        "0.0",
+                        "0.0",
+                        "0.0"
+                    ]
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "B_COL",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "B",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "RGBA",
+                    "default_value": [
+                        "0.0",
+                        "0.0",
+                        "0.0",
+                        "0.0"
+                    ]
+                },
+                {
+                    "description": "",
+                    "display_shape": "CIRCLE",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "A_STR",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "A",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "STRING",
+                    "default_value": null
+                },
+                {
+                    "description": "",
+                    "display_shape": "CIRCLE",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "B_STR",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "B",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "STRING",
+                    "default_value": null
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "C",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "C",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.8999999761581421"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Angle",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Angle",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.08726649731397629"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Epsilon",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Epsilon",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0010000000474974513"
+                }
+            ],
+            "outputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Result",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Result",
+                    "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                    "show_expanded": false,
+                    "type": "BOOLEAN",
+                    "default_value": null
+                }
+            ],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        },
+        {
+            "uuid": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+            "type": "GROUP_INPUT",
+            "location": {
+                "x": -971.088134765625,
+                "y": 3.9245681762695312
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Group Input",
+            "label": "",
+            "inputs": [],
+            "outputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Input_1",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Density",
+                    "node": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                },
+                {
+                    "description": "",
+                    "display_shape": "CIRCLE",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "__extend__",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "",
+                    "node": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+                    "show_expanded": false,
+                    "type": "CUSTOM"
+                }
+            ],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        },
+        {
+            "uuid": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+            "type": "MATH",
+            "location": {
+                "x": -546.9828491210938,
+                "y": 208.83924865722656
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Math",
+            "label": "",
+            "inputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value_001",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "-1.0"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value_002",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                }
+            ],
+            "outputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Value",
+                    "node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                }
+            ],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        },
+        {
+            "uuid": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+            "type": "MATH",
+            "location": {
+                "x": -299.50677490234375,
+                "y": 147.3781280517578
+            },
+            "width": 140.0,
+            "height": 100.0,
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "name": "Math.001",
+            "label": "",
+            "inputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value_001",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.10000000149011612"
+                },
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND_DOT",
+                    "enabled": false,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value_002",
+                    "is_linked": false,
+                    "is_multi_input": false,
+                    "is_output": false,
+                    "is_unavailable": true,
+                    "label": "",
+                    "link_limit": 1,
+                    "name": "Value",
+                    "node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.5"
+                }
+            ],
+            "outputs": [
+                {
+                    "description": "",
+                    "display_shape": "DIAMOND",
+                    "enabled": true,
+                    "hide": false,
+                    "hide_value": false,
+                    "identifier": "Value",
+                    "is_linked": true,
+                    "is_multi_input": false,
+                    "is_output": true,
+                    "is_unavailable": false,
+                    "label": "",
+                    "link_limit": 4095,
+                    "name": "Value",
+                    "node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+                    "show_expanded": false,
+                    "type": "VALUE",
+                    "default_value": "0.0"
+                }
+            ],
+            "parent": null,
+            "use_custom_color": false,
+            "color": {
+                "r": 0.6079999804496765,
+                "g": 0.6079999804496765,
+                "b": 0.6079999804496765
+            },
+            "select": false,
+            "show_options": true,
+            "show_preview": false,
+            "hide": false,
+            "mute": false
+        }
+    ],
+    "links": [
+        {
+            "from_node": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+                "default_value": "0.0"
+            },
+            "to_node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                "default_value": "0.0"
+            }
+        },
+        {
+            "from_node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+            "from_socket": {
+                "type": "BOOLEAN",
+                "node": "8635f0bb-1081-4c98-8f9c-34e02e6e114d",
+                "default_value": null
+            },
+            "to_node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+            "to_socket": {
+                "type": "BOOLEAN",
+                "node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+                "default_value": null
+            }
+        },
+        {
+            "from_node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+                "default_value": "0.0"
+            },
+            "to_node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "c0b35079-a33e-4aa3-a574-82af2804d4fd",
+                "default_value": "0.0"
+            }
+        },
+        {
+            "from_node": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "27b6f22d-1af0-4027-a774-f4b9d63b0e65",
+                "default_value": "0.0"
+            },
+            "to_node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+                "default_value": "0.5"
+            }
+        },
+        {
+            "from_node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+            "from_socket": {
+                "type": "VALUE",
+                "node": "a68114c0-97e4-4e22-9669-9c0dc63ad7ae",
+                "default_value": "0.0"
+            },
+            "to_node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+            "to_socket": {
+                "type": "VALUE",
+                "node": "5ed365a6-110f-493c-866f-0ad5b484aa0d",
+                "default_value": "0.5"
+            }
+        }
+    ]
+}
